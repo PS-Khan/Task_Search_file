@@ -1,6 +1,6 @@
 # Task_Search_file
-##How to Use
-###Compilation:
+## How to Use
+### Compilation:
 
 Used GCC compilier.
 
@@ -11,11 +11,13 @@ To compile the static library and the application, simply run the make command i
 The make command will compile the code, create the static library (libfile_search_lib.a), and build the test application (test_app).
 Running the Application:
 
+### Search
+
 After successful compilation, execute the test_app application in the terminal.
-The application will start searching for the file named test.txt." It will start with "C:". To change these parameters, you should change
+The application will start searching for the file named test.txt." It will start with "C:\". To change these parameters, you should change
 
 root_dir = opendir("C:/"); and search_file(root_path, "test.txt") in main.c accordingly.
 
-Cleaning Up:
+### Cleaning Up:
 
 To remove the compiled object files and executables, you can use the make clean command.
