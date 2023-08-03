@@ -4,12 +4,10 @@
 
 Used GCC compilier.
 
-Open a terminal or command prompt and navigate to the directory containing the code files (main.c, file_search_lib.c, and file_search_lib.h) and the Makefile.
 Building the Static Library and Application:
 
-To compile the static library and the application, simply run the make command in the terminal.
+To compile the static library and the application,  run the make command in the terminal.
 The make command will compile the code, create the static library (libfile_search_lib.a), and build the test application (test_app).
-Running the Application:
 
 ### Search
 
