@@ -14,7 +14,7 @@ typedef struct {
 void* search_thread(void* args) {
     ThreadArgs* thread_args = (ThreadArgs*)args;
     char root_path[1024];
-    snprintf(root_path, sizeof(root_path), "D:/proj/%s", thread_args->subdir);
+    snprintf(root_path, sizeof(root_path), "C:/%s", thread_args->subdir);
     search_file(root_path, "test.txt");
     free(thread_args->subdir); 
     return NULL;
